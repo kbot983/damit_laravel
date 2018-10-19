@@ -1,6 +1,3 @@
 <html>
- <!--
-        Here database will be connected. 
- -->
- @yield('content')
+    @yield('content')
 </html>

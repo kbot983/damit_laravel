@@ -12,3 +12,5 @@
 */
 
 Route::get('/{id}/{key}/{hash}', 'PagesController@getuserdetails');
+
+Route::resource('userdetails', 'UserDataController');
